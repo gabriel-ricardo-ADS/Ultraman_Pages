@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultraman 1.0</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
         <h1>Ultraman Taro</h1>
-        <audio controls>
-        <source src="../mp3/Taro.mp3" type="audio/mpeg">
-         Seu navegador não suporta áudio.
+
+        <audio controls class="audio-player">
+            <source src="../mp3/Taro.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
         </audio>
     </header>
 
-    <main>
-        <div style="max-width: 900px; margin: auto; padding: 20px;">
+    <main class="container">
 
-            <section style="display: flex; gap: 20px; align-items: center;">
-                <img src="../imagens/Taro.jpg" alt="Taro" style="width: 300px; height: auto;">
+        <section class="hero">
+            <img src="../imagens/Taro.jpg" alt="Taro" class="hero-img">
 
-                <div>
-                    <h2>About Taro</h2>
+            <div class="hero-text">
+                <h2>About Taro</h2>
 
-                    <p>
-                        Ultraman Taro is the biological son of Father and Mother of Ultra, often regarded as the strongest and most physically capable of the Ultra Brothers. He arrived on Earth to fight a new wave of powerful monsters, choosing to merge with the brave boxer Kotaro Higashi after the young man sacrificed his life to protect others. As a member of ZAT (Zariba of All Territory), Taro is easily recognized by his Ultra Horns, which allow him to channel massive amounts of energy for his signature Strium Beam and the high-risk, self-explosive Ultra Dynamite technique.
-                    </p>
-                </div>
-            </section>
+                <p>
+                    Ultraman Taro is the biological son of Father and Mother of Ultra, often regarded as the strongest and most physically capable of the Ultra Brothers. He arrived on Earth to fight a new wave of powerful monsters, choosing to merge with the brave boxer Kotaro Higashi after the young man sacrificed his life to protect others. As a member of ZAT (Zariba of All Territory), Taro is easily recognized by his Ultra Horns, which allow him to channel massive amounts of energy for his signature Strium Beam and the high-risk, self-explosive Ultra Dynamite technique.
+                </p>
+            </div>
+        </section>
 
-            <section>
-                <h2>Ultras: </h2>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./Zoffy.html">Zoffy</a></li>
-                        <li><a href="./Seven.html">Seven</a></li>
-                        <li><a href="./Jack.html">Jack</a></li>
-                        <li><a href="./Ace.html">Ace</a></li>
-                        <li><a href="./Mebius.html">Mebius</a></li>
-                    </ul>
-                </nav>
-            </section>
+        <hr>
 
-        </div>
+        <section>
+            <h2>Ultra Brothers:</h2>
+
+            <nav>
+                <ul class="character-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./Zoffy.html">Zoffy</a></li>
+                    <li><a href="./Seven.html">Seven</a></li>
+                    <li><a href="./Jack.html">Jack</a></li>
+                    <li><a href="./Ace.html">Ace</a></li>
+                    <li><a href="./Mebius.html">Mebius</a></li>
+                </ul>
+            </nav>
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <hr>
         <p>&copy; GRGL - 2026</p>
     </footer>
