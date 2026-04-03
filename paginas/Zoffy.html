@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultraman 1.0</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
         <h1>Ultraman Zoffy</h1>
-        <audio controls>
-        <source src="../mp3/Zoffy.mp3" type="audio/mpeg">
-         Seu navegador não suporta áudio.
+
+        <audio controls class="audio-player">
+            <source src="../mp3/Zoffy.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
         </audio>
     </header>
 
-    <main>
-        <div style="max-width: 900px; margin: auto; padding: 20px;">
+    <main class="container">
 
-            <section style="display: flex; gap: 20px; align-items: center;">
-                <img src="../imagens/zoffy.jpg" alt="Zoffy" style="width: 300px; height: auto;">
+        <section class="hero">
+            <img src="../imagens/zoffy.jpg" alt="Zoffy" class="hero-img">
 
-                <div>
-                    <h2>About Zoffy</h2>
+            <div class="hero-text">
+                <h2>About Zoffy</h2>
 
-                    <p>
-                        Unlike the other Ultra Brothers, Zoffy is the commander of the Inter Galactic Defense Force and does not have a permanent human host or his own TV series. He first arrived on Earth to retrieve the original Ultraman after his defeat by Zetton, and since then, he has appeared as a powerful mentor and reinforcement during the planet's greatest crises. He is easily identified by the Star Marks on his chest—honorable medals representing his bravery in battle—and is feared by enemies for his M87 Beam, which is recorded as the single most powerful heat-ray attack among the Ultra Brothers.
-                    </p>
-                </div>
-            </section>
+                <p>
+                    Unlike the other Ultra Brothers, Zoffy is the commander of the Inter Galactic Defense Force and does not have a permanent human host or his own TV series. He first arrived on Earth to retrieve the original Ultraman after his defeat by Zetton, and since then, he has appeared as a powerful mentor and reinforcement during the planet's greatest crises. He is easily identified by the Star Marks on his chest—honorable medals representing his bravery in battle—and is feared by enemies for his M87 Beam, which is recorded as the single most powerful heat-ray attack among the Ultra Brothers.
+                </p>
+            </div>
+        </section>
 
-            <section>
-                <h2>Ultras: </h2>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./Seven.html">Seven</a></li>
-                        <li><a href="./Jack.html">Jack</a></li>
-                        <li><a href="./Ace.html">Ace</a></li>
-                        <li><a href="./Taro.html">Taro</a></li>
-                        <li><a href="./Mebius.html">Mebius</a></li>
-                    </ul>
-                </nav>
-            </section>
+        <hr>
 
-        </div>
+        <section>
+            <h2>Ultra Brothers:</h2>
+
+            <nav>
+                <ul class="character-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./Seven.html">Seven</a></li>
+                    <li><a href="./Jack.html">Jack</a></li>
+                    <li><a href="./Ace.html">Ace</a></li>
+                    <li><a href="./Taro.html">Taro</a></li>
+                    <li><a href="./Mebius.html">Mebius</a></li>
+                </ul>
+            </nav>
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <hr>
         <p>&copy; GRGL - 2026</p>
     </footer>

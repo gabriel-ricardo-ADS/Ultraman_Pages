@@ -4,65 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultraman 1.0</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to the Ultraman page!!</h1>
-        <audio controls>
-        <source src="mp3/Ultraman.mp3" type="audio/mpeg">
-         Seu navegador não suporta áudio.
+    <header class="header">
+        <h1>Ultraman Universe</h1>
+
+        <audio controls class="audio-player">
+            <source src="mp3/Ultraman.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
         </audio>
     </header>
 
-    <main>
-        <div style="max-width: 900px; margin: auto; padding: 20px;">
+    <main class="container">
 
-            <section style="display: flex; gap: 20px; align-items: center;">
-                <img src="./imagens/ultraman.jpg" alt="Ultraman Original" style="width: 300px; height: auto;">
+        <section class="hero">
+            <img src="./imagens/ultraman.jpg" alt="Ultraman Original" class="hero-img">
 
-                <div>
-                    <h2>Ultraman Original</h2>
+            <div class="hero-text">
+                <h2>Ultraman Original</h2>
 
-                    <p>
-                        This is the original ULTRAMAN.
-                    </p>
+                <p>This is the original ULTRAMAN.</p>
 
-                    <p>
-                        Created in 1966 by 
-                        <a href="https://tsuburaya-prod.com/">Tsuburaya Productions</a> 
-                        in Japan, under the vision of 
-                        <a href="https://en.wikipedia.org/wiki/Eiji_Tsuburaya">Eiji Tsuburaya</a>.
-                    </p>
+                <p>
+                    Created in 1966 by 
+                    <a href="https://tsuburaya-prod.com/" target="_blank">Tsuburaya Productions</a>
+                </p>
 
-                    <p>
-                        It debuted on July 17, 1966 as a groundbreaking tokusatsu series featuring giant heroes fighting monsters.
-                    </p>
-                </div>
-            </section>
-            <hr>
-            <section>
-                <h2>Meet the Ultra Brothers: </h2>
-                <nav>
-                    <ul>
-                        <li><a href="./paginas/Zoffy.html">Zoffy</a></li>
-                        <li><a href="./paginas/Seven.html">Seven</a></li>
-                        <li><a href="./paginas/Jack.html">Jack</a></li>
-                        <li><a href="./paginas/Ace.html">Ace</a></li>
-                        <li><a href="./paginas/Taro.html">Taro</a></li>
-                        <li><a href="./paginas/Mebius.html">Mebius</a></li>
-                    </ul>
-                </nav>
-            </section>
+                <p>
+                    A classic tokusatsu hero fighting giant monsters.
+                </p>
+            </div>
+        </section>
 
-        </div>
+        <hr>
+
+        <section class="characters">
+            <h2>Ultra Brothers</h2>
+
+            <ul class="character-list">
+                <li><a href="./paginas/Zoffy.html">Zoffy</a></li>
+                <li><a href="./paginas/Seven.html">Seven</a></li>
+                <li><a href="./paginas/Jack.html">Jack</a></li>
+                <li><a href="./paginas/Ace.html">Ace</a></li>
+                <li><a href="./paginas/Taro.html">Taro</a></li>
+                <li><a href="./paginas/Mebius.html">Mebius</a></li>
+            </ul>
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <hr>
-        <p>&copy; GRGL - 2026</p>
+        <p>© 2026 - Gabriel Ricardo</p>
     </footer>
 
 </body>

@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultraman 1.0</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
         <h1>Ultraman Mebius</h1>
-        <audio controls>
-        <source src="../mp3/Mebius.mp3" type="audio/mpeg">
-         Seu navegador não suporta áudio.
+
+        <audio controls class="audio-player">
+            <source src="../mp3/Mebius.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
         </audio>
     </header>
 
-    <main>
-        <div style="max-width: 900px; margin: auto; padding: 20px;">
+    <main class="container">
 
-            <section style="display: flex; gap: 20px; align-items: center;">
-                <img src="../imagens/Mebius.jpg" alt="Mebius" style="width: 300px; height: auto;">
+        <section class="hero">
+            <img src="../imagens/Mebius.jpg" alt="Mebius" class="hero-img">
 
-                <div>
-                    <h2>About Mebius</h2>
+            <div class="hero-text">
+                <h2>About Mebius</h2>
 
-                    <p>
-                        Ultraman Mebius was the last of the Ultra Brothers to arrive on Earth in the original timeline, sent as a young rookie by Father of Ultra to learn the true meaning of courage. Unlike his predecessors, he took on the human form of Mirai Hibino—a disguise he created to honor a brave astronaut—and joined the specialized team GUYS. Throughout his battles, Mebius is defined by his deep bonds with his human teammates, which allow him to unlock powerful new forms through his Mebius Brace. He is most famous for his Mebium Shoot and his unique ability to combine his life force with his friends to protect the planet.
-                    </p>
-                </div>
-            </section>
+                <p>
+                    Ultraman Mebius was the last of the Ultra Brothers to arrive on Earth in the original timeline, sent as a young rookie by Father of Ultra to learn the true meaning of courage. Unlike his predecessors, he took on the human form of Mirai Hibino—a disguise he created to honor a brave astronaut—and joined the specialized team GUYS. Throughout his battles, Mebius is defined by his deep bonds with his human teammates, which allow him to unlock powerful new forms through his Mebius Brace. He is most famous for his Mebium Shoot and his unique ability to combine his life force with his friends to protect the planet.
+                </p>
+            </div>
+        </section>
 
-            <section>
-                <h2>Ultras: </h2>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./Zoffy.html">Zoffy</a></li>
-                        <li><a href="./Seven.html">Seven</a></li>
-                        <li><a href="./Jack.html">Jack</a></li>
-                        <li><a href="./Ace.html">Ace</a></li>
-                        <li><a href="./Taro.html">Taro</a></li>
-                    </ul>
-                </nav>
-            </section>
+        <hr>
 
-        </div>
+        <section>
+            <h2>Ultra Brothers:</h2>
+
+            <nav>
+                <ul class="character-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./Zoffy.html">Zoffy</a></li>
+                    <li><a href="./Seven.html">Seven</a></li>
+                    <li><a href="./Jack.html">Jack</a></li>
+                    <li><a href="./Ace.html">Ace</a></li>
+                    <li><a href="./Taro.html">Taro</a></li>
+                </ul>
+            </nav>
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <hr>
         <p>&copy; GRGL - 2026</p>
     </footer>
