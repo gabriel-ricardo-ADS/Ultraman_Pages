@@ -17,17 +17,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER */
 .header {
     background-color: var(--background-light);
 }
 
-/* TITULOS */
 h1, h2 {
     color: var(--ultra-red);
 }
 
-/* LINKS */
 a {
     color: var(--blazer-blue);
     text-decoration: none;
@@ -37,7 +34,6 @@ a:hover {
     color: var(--beam-yellow);
 }
 
-/* HERO */
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,7 +42,6 @@ a:hover {
     margin-top: 30px;
 }
 
-/* IMAGEM */
 .hero-img {
     width: 100%;
     max-width: 320px;
@@ -54,12 +49,11 @@ a:hover {
     justify-self: center;
 }
 
-/* TEXTO */
 .hero-text {
     max-width: 500px;
 }
 
-/* DESTAQUE OPCIONAL */
+
 .highlight {
     color: var(--monster-green);
 }
