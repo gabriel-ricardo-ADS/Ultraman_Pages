@@ -47,6 +47,13 @@ a:hover {
     max-width: 320px;
     border-radius: 10px;
     justify-self: center;
+    display:block;
+    transition: 0.4s ease;
+}
+
+.hero-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .hero-text {
