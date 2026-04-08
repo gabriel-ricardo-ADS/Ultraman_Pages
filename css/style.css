@@ -148,6 +148,19 @@ a:hover {
 
 /* MOBILE */
 @media (max-width: 768px) {
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+    .header {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .audio-player {
+        width: 100%;
+        max-width: 280px;
+    }
     .hero {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -157,34 +170,41 @@ a:hover {
     .hero-text {
         max-width: 100%;
     }
-    .navbar ul {
+
+    .hero-img {
+        width: 80%;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    .navbar {
+        width: 100%;
+        padding: 10px 0;
+        overflow-x: hidden;
+    }
+
+    .nav-container {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
 
-    .navbar {
-        padding: 10px 0;
-    }
-
-    .nav-container {
+    .navbar ul {
+        width: 100%;
+        padding: 0;
         flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
-     .hero-img {
-        max-width: 250px;
-    }
-    body {
-        padding: 10px;
-    }
-    .header {
-        text-align: center;
-        padding: 15px;
+
+    .navbar li {
+        width: 100%;
     }
 
-    .audio-player {
+    .navbar a {
+        display: block;
         width: 100%;
-        max-width: 300px;
+        text-align: center;
+        padding: 10px 0;
     }
     h1 {
         font-size: 1.5rem;
