@@ -64,3 +64,49 @@ a:hover {
 .highlight {
     color: var(--monster-green);
 }
+
+.navbar {
+    background-color: var(--background-light);
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar a {
+    position: relative;
+    color: var(--ultra-white);
+    font-weight: bold;
+    padding: 5px 0;
+    transition: 0.3s;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--beam-yellow);
+    transition: 0.3s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar a.active {
+    color: var(--beam-yellow);
+}
+
+.navbar a.active::after {
+    width: 100%;
+}
+.navbar a:hover {
+    color: var(--beam-yellow);
+}
