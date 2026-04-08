@@ -139,3 +139,25 @@ a:hover {
     display: flex;
     gap: 25px;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+     .hero-img {
+        max-width: 250px;
+    }
+    body {
+        padding: 10px;
+    }
+}
